@@ -1,0 +1,20 @@
+p{
+  width: 50px;
+  height: 50px;
+  background-color: #1abc9c;
+  color: #ecf0f1;
+  border: 2px solid #2c3e50;
+}
+
+
+
+.transformed{
+  background-color: #34984b;
+  /*transform: scale(2);*/
+  /*transform: scaleX(2);*/
+  /*transform-origin: 0 0;*/
+  transform-origin: left top;
+  /*transform: rotate(-75deg);*/
+
+  transform: rotate(90deg), scale(2);
+}

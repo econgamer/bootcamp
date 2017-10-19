@@ -1,0 +1,116 @@
+p{
+  margin:0px;
+}
+
+@keyframes skyColor {
+  0%{
+    background-color: #001e3a;
+  }
+
+  10%{
+    background-color: #f9acd3;
+  }
+
+  30%{
+    background-color: #51abff;
+  }
+
+  70%{
+    background-color: #51abff;
+  }
+
+  90%{
+    background-color: #f9acd3;
+  }
+
+  100%{
+    background-color: #001e3a;
+  }
+
+}
+
+@keyframes sunAnimation {
+  0%{
+    transform: translateX(0) translateY(200%);
+    background-color: #ff8300;
+  }
+
+  25%{
+    transform: translateX(200%) translateY(-5%);
+    background-color: #ffe500;
+  }
+
+  50%{
+    transform: translateX(400%) translateY(-10%);
+    background-color: #ffe500;
+  }
+
+  75%{
+    transform: translateX(600%) translateY(-5%);
+    background-color: #ffe500;
+  }
+
+  100%{
+    transform: translateX(800%) translateY(200%);
+    background-color: #ff003f;
+  }
+}
+
+/*.both{
+  animation-fill-mode: both;
+}
+
+.forwards{
+  animation-fill-mode: forwards;
+}
+
+.backwards{
+  animation-fill-mode: backwards;
+}*/
+
+
+/*p:hover{
+  animation-name: changecolor;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+}*/
+
+/*.sunArea{
+  width: 100%;
+}*/
+
+.sun{
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #ff8300;
+  position: absolute;
+  animation-name: sunAnimation;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index: 1;
+  transform: translateX(0) translateY(200%);
+}
+
+.sky{
+  width: 100%;
+  height: 29%;
+  background-color: #001e3a;
+  animation-name: skyColor;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index: 2;
+}
+
+.grass{
+  position:absolute;
+  width:100%;
+  height: 70%;
+  background-color: green;
+  z-index: 3;
+}

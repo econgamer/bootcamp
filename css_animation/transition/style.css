@@ -1,0 +1,45 @@
+.box{
+  width:100px;
+  height: 100px;
+  background-color: purple;
+  line-height: 100px;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+/*.animated{*/
+  /*transition-property: background-color;*/
+  /*transition-property: transform;*/
+  /*transition-property: background-color, border-radius;
+  transition-duration: 2s, 3s;
+  transition-delay: 1s;
+
+}*/
+/*
+.box:hover{
+  background: #e74c3c;
+  transform-origin: top left;
+  transform: scale(2);
+  border-radius: 50px;*/
+  /*opacity: 0.5;*/
+/*}*/
+
+/*transition: background 1.5s ease-in 1;
+property duration timing-function delay*/
+
+.animated{
+  transition: transform 2s ease-out 1s, background-color 0.5s linear;
+
+  /*transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1s;*/
+}
+
+
+.box:hover{
+  transform: translateX(300px);
+  background-color: teal;
+}
