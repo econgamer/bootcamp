@@ -1,0 +1,28 @@
+.box{
+  width: 250px;
+
+  color: white;
+  background-color: blue;
+  text-align: center;
+  font-size: 70px;
+  border: 10px solid black;
+}
+
+.box-1{
+  font-size: 150px;
+}
+
+.box-5{
+  font-size: 50px;
+}
+
+
+.container{
+  display: flex;
+  border: 10px solid black;
+  flex-wrap: wrap;
+  height: 50vh;
+  align-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}

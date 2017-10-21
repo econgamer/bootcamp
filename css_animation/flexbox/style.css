@@ -1,0 +1,21 @@
+.box{
+  width: 100px;
+  height: 150px;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  vertical-align: center;
+  line-height: 150px;
+}
+
+
+.container{
+  display: flex;
+  border: 10px solid black;
+  /*flex-direction: row-reverse;*/
+  flex-direction: column;
+  /*flex-wrap: wrap-reverse;*/
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 800px;
+}
